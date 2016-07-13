@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//src/com/zhuyawei/t_book/util/BitmapUtils.java=UTF-8
+encoding//src/com/zhuyawei/t_book/util/CommonRequest.java=UTF-8
+encoding//src/com/zhuyawei/t_book/view/IStoreView.java=UTF-8
+encoding//src/org/xutils/cache/LruDiskCache.java=UTF-8
+encoding//src/org/xutils/common/task/TaskProxy.java=UTF-8
+encoding//src/org/xutils/config/DbConfigs.java=UTF-8
+encoding//src/org/xutils/http/HttpTask.java=UTF-8
+encoding//src/org/xutils/http/RequestParams.java=UTF-8
+encoding//src/org/xutils/http/app/DefaultParamsBuilder.java=UTF-8
+encoding//src/org/xutils/image/ImageDecoder.java=UTF-8
+encoding//src/org/xutils/view/EventListenerManager.java=UTF-8
+encoding//src/org/xutils/view/ViewInjectorImpl.java=UTF-8
+encoding//src/org/xutils/x.java=UTF-8

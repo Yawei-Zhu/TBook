@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </android.support.v4.view.ViewPager>
+
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shouye_bar_bottom"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_store"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/tab_drawable_store_selector"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="书城"
+            android:textColor="@drawable/tab_text_color_selector"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/rb_cart"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/tab_drawable_cart_selector"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="购物车"
+            android:textColor="@drawable/tab_text_color_selector"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/rb_mine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/tab_drawable_mine_selector"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="我的"
+            android:textColor="@drawable/tab_text_color_selector"
+            android:textSize="14sp" />
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:paddingTop="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_weight="1"
+            android:background="@drawable/address_item_bg"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp" >
+
+            <TextView
+                android:id="@+id/tv_receive_name"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:gravity="bottom"
+                android:text="雯雯"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="30dp"
+                android:layout_toEndOf="@+id/tv_receive_name"
+                android:layout_toRightOf="@+id/tv_receive_name"
+                android:gravity="bottom"
+                android:text="133****3333"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_weight="1"
+            android:background="@drawable/address_item_bg"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp" >
+
+            <TextView
+                android:id="@+id/tv_receive_address"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="潘家园....潘家园....潘家园....潘家园....潘家园....潘家园....潘家园....潘家园...."
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/address_divider" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:background="@drawable/address_item_bg"
+        android:paddingLeft="16dp" >
+
+        <RadioButton
+            android:id="@+id/rb_default"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:button="@drawable/checked"
+            android:checked="false"
+            android:gravity="center_vertical"
+            android:text="  默认"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/rb_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="25dp"
+            android:layout_toEndOf="@+id/rb_default"
+            android:layout_toRightOf="@+id/rb_default"
+            android:button="@drawable/address_ico_edit"
+            android:checked="false"
+            android:gravity="center_vertical"
+            android:text="  编辑"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/rb_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="25dp"
+            android:layout_toEndOf="@+id/rb_edit"
+            android:layout_toRightOf="@+id/rb_edit"
+            android:button="@drawable/address_ico_del"
+            android:checked="false"
+            android:gravity="center_vertical"
+            android:text="  删除"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</LinearLayout>

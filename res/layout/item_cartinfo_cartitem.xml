@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#ffffff"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <ImageView
+        android:id="@+id/iv_book_pic"
+        android:layout_width="54dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:paddingLeft="20dp" >
+
+        <TextView
+            android:id="@+id/tv_book_name"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="bottom"
+            android:singleLine="true"
+            android:text="全面开战"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tv_book_name"
+            android:gravity="top"
+            android:text="200.00￥"
+            android:textColor="#dd0000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_count"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@+id/tv_book_name"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tv_price"
+            android:gravity="top"
+            android:text="x2"
+            android:textColor="#999999" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_total_price"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="￥400.00"
+        android:textColor="#ff0000" />
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zhuyawei.t_book"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.zhuyawei.t_book.TBookApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.zhuyawei.t_book.activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zhuyawei.t_book.activity.OrderInfoActivity"
+            android:label="@string/title_activity_order_info"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.zhuyawei.t_book.activity.BookDetailActivity"
+            android:label="@string/title_activity_book_detail"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.zhuyawei.t_book.activity.AddressActivity"
+            android:label="@string/title_activity_address"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.zhuyawei.t_book.activity.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.zhuyawei.t_book.activity.RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.zhuyawei.t_book.activity.OrderActivity"
+            android:label="@string/title_activity_order" android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>
